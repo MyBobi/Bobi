@@ -245,5 +245,4 @@ public class UserTest {
 }
 
 ```
-OK,基本完成啦！下面是项目的GitHub的链接: [MybatisFirstDemo][1]
-  [1]: https://github.com/MyBobi/MyBatisFirstDemo
+OK,基本完成啦！
