@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bobi.po.User">
+    <!--下列的id必须唯一的-->
+    <insert id="insertUser" parameterType="com.bobi.po.User" useGeneratedKeys="true">
+        INSERT INTO USER(name,age) VALUES(#{name},#{age})
+    </insert>
+
+    <update id="updateUsername" parameterType="com.bobi.po.User">
+        UPDATE USER SET name=#{name} WHERE id=#{id}
+    </update>
+
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        DELETE FROM USER WHERE id=#{id}
+    </delete>
+
+    <select id="findById" parameterType="int" resultType="com.bobi.po.User">
+        SELECT * FROM User WHERE id=#{id}
+    </select>
+
+    <select id="findUserByUsername" parameterType="java.lang.String" resultType="com.bobi.po.User">
+        SELECT * FROM USER WHERE name LIKE '%${value}%'
+    </select>
+
+</mapper>
