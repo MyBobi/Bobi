@@ -1,6 +1,3 @@
-# MyBatisFirstDemo
-搭建MyBatis工作环境以及增删改查基本操作
-
 ## 数据库准备
 创建一个数据库为mybatus-test,表为user
 ```
@@ -189,9 +186,7 @@ public class User {
 </mapper>
 ```
 在这里值得注意一下的是平时可能会遇到如下的错误
-![](https://images2018.cnblogs.com/blog/1392149/201808/1392149-20180806231803041-1788736127.png)
 如果有遇到如图中的问题，根据图中的提示修改就可以啦
-
 最后一个就是编写w测试类了，在src\main\java中编写一个UserTest.java
 ```
 package com.bobi.test;
@@ -247,8 +242,10 @@ public class UserTest {
 }
 
 ```
-OK,基本完成啦！博客地址：https://www.cnblogs.com/Jackic/p/9434283.html
-## 欢迎关注公众号
-![](https://images2018.cnblogs.com/blog/1459524/201808/1459524-20180807111324705-1972300723.jpg)
-### 欢迎投稿分享个人工作、生活、项目经验
-### 博主也经常分享一些干货教学视频哦！
+OK,基本完成啦！下面是项目的GitHub的链接: [MybatisFirstDemo][1]
+  [1]: https://github.com/MyBobi/MyBatisFirstDemo
+  > <center> 作者：编程精选
+  >  出处：https://blog.csdn.net/wjq6940
+  >  **欢迎投稿分享个人工作，生活，项目经验。**
+  >  **博主也经常分享教学视频哦！**
+  >![这里写图片描述](https://img-blog.csdn.net/20180811120543509?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dqcTY5NDA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
