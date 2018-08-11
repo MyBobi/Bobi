@@ -248,4 +248,4 @@ OK,基本完成啦！下面是项目的GitHub的链接: [MybatisFirstDemo][1]
   >  出处：https://blog.csdn.net/wjq6940
   >  **欢迎投稿分享个人工作，生活，项目经验。**
   >  **博主也经常分享教学视频哦！**
-  >![](https://img-blog.csdn.net/20180811120543509?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dqcTY5NDA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+  >![](https://img-blog.csdn.net/20180811120543509?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dqcTY5NDA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)</center >
